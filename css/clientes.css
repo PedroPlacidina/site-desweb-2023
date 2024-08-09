@@ -1,0 +1,62 @@
+body{
+    background-image: url("../img/fundocli.jpg");
+    background-repeat: no-repeat;
+}
+
+.titulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 60px 300px 30px;
+    font-size: 18px;
+    background-color: rgba(64, 131, 119, 0.521);
+}
+
+.cliente{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 70%;
+    margin: 10px 20px 20px;
+    margin-left: 240px;
+    padding: 20px;
+}
+.cliente div{
+    font-size: 19px;
+    border: solid 1px black;
+    align-items: center;
+    padding: 10px;
+    color: black;
+    box-shadow: 7px 7px 13px 0px rgba(0, 0, 0, 0.774);
+    background-color: rgba(64, 131, 119, 0.521);
+}
+
+.cliente div:hover{
+   background-color: #ffffffc4;
+}
+
+.logo{
+    width: 150px;
+    height: 140px;
+    margin-left: 20px;
+}
+
+.logo2{
+    width: 150px;
+    height: 140px;
+    margin-right: 10px;
+}
+
+.btn{
+    transition-duration: 0.4s;
+    border: 1px solid black;
+    color: white;
+    padding: 10px 60px 10px;
+    margin: 300px;
+    text-decoration: none;
+}
+.btn:hover{
+    background-color: #000000;
+}

@@ -1,0 +1,98 @@
+body{
+    background-image: url("../img/index.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-size: 18px;
+}
+
+.cont1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 50px;
+    background-color: rgba(3, 14, 12, 0.733);
+    box-shadow: 7px 7px 13px 0px rgba(0, 0, 0, 0.774);
+    border-radius: 10px;
+
+}
+.cont1{
+    color: white;
+}
+
+.links{
+   display: flex;
+   flex-direction: row; 
+   justify-content: space-evenly;
+   list-style-type: none;
+   border: 1px solid black;
+   padding: 20px;
+   margin: 50px;
+   background-color: rgba(3, 14, 12, 0.733);
+   box-shadow: 7px 7px 13px 0px rgba(0, 0, 0, 0.774);
+   border-radius: 10px;
+}
+a{
+    text-decoration: none;
+    text-align: center;
+}
+
+a h3{
+    transition-duration: 0.4s;
+    border: 1px solid white;
+    color: white;
+    padding: 5px;
+    width: 100px;
+
+
+}
+a h3:hover{
+    background-color: rgb(0, 201, 164);
+    color: white;
+}
+
+.sobre{
+    display: flex;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 50px;
+    background-color: rgba(3, 14, 12, 0.733);
+    box-shadow: 7px 7px 13px 0px rgba(0, 0, 0, 0.774);
+    border-radius: 10px;
+    color: white;
+}
+
+.servicos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 70%;
+    margin: 50px;
+    margin-left: 240px;
+    padding: 20px;
+    
+}
+.servicos div{
+    border: solid 1px black;
+    border-radius: 10px;
+    align-items: center;
+    padding: 10px;
+    background-color: rgba(3, 14, 12, 0.733);
+    box-shadow: 7px 7px 13px 0px rgba(0, 0, 0, 0.774);
+    border-radius: 10px;
+    color: white;
+}
+
+.fusca{
+    width: 300px;
+    height: 200px;
+    margin-left: 10px;
+    
+}
+
+.fusca2{
+    width: 300px;
+    height: 200px;
+    margin-right: 10px;
+}

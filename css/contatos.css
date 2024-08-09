@@ -1,0 +1,59 @@
+body{
+    background-image: url("../img/fundocon.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-size: 18px;
+    width: 50%;
+    margin-left: 25%;
+}
+
+.titulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 50px;
+    background-color: rgba(0, 0, 0, 0.808);
+    box-shadow: 7px 7px 13px 0px rgba(0, 0, 0, 0.979);
+    color: white;
+    
+
+}
+
+.cont{
+    display: grid;
+    grid-template: "cont2 cont3";
+    border: 1px solid black;
+    padding: 20px;
+    margin: 50px;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.808);
+    box-shadow: 7px 7px 13px 0px rgba(0, 0, 0, 0.973);
+    color: white;
+}
+.cont2{
+    grid-area: cont2;
+    margin-right: 80px;
+}
+.cont3{
+    grid-area: cont3;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.btn{
+    transition-duration: 0.4s;
+    border: 1px solid white;
+    color: white;
+    padding: 10px 90px 10px;
+    margin: 50px;
+    margin-left: 40%;
+    text-decoration: none;
+}
+.btn:hover{
+    background-color: #000000;
+}

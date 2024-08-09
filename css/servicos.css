@@ -1,0 +1,53 @@
+body{
+    background-image: url("../img/fordMustang.jpg");
+    background-repeat: no-repeat;
+}
+
+.titulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 20px 50px 10px;
+    border-radius: 10px;
+}
+.titulo h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.cont{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 20px;
+    margin: 20px 30px 10px;
+    grid-column-gap: 10px;
+    grid-row-gap: 20px;
+    font-size: 18px;
+    color: white;
+}
+
+.servicosL{
+    transition-duration: 0.4s;
+    text-decoration: none;
+    color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+.servicosL:hover{
+    background-color: #3b898d;
+}
+
+.btn{
+    transition-duration: 0.4s;
+    border: 1px solid white;
+    color: white;
+    padding: 10px 30px 10px;
+    margin: 50px;
+    text-decoration: none;
+}
+.btn:hover{
+    background-color: #990000;
+}
